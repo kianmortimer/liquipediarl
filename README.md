@@ -33,7 +33,7 @@ print(player['settings']['camera'])
 
 ```python
 # Gets all the Oceanic players
-players = lp.get_all_player("Oceania")
+players = lp.get_all_players("Oceania")
 
 print(len(players))
 print(players[:5])
