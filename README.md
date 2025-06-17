@@ -38,6 +38,7 @@ print(player['settings']['camera'])
 players = lp.get_all_players("Oceania")
 # Regions are as follows:
 # Africa, Americas, Asia, Europe, Oceania
+
 # Or use 'all=True' to get all regions at once
 all_players = lp.get_all_players(all=True)
 # Note: returns 1 page per 30 secs to comply with rate limits
