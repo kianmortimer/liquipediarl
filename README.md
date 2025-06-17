@@ -6,6 +6,14 @@
 
 ---
 
+## Installation
+
+```cmd
+pip install liquipediarl
+```
+
+---
+
 ## Examples
 
 ```python
