@@ -4,6 +4,8 @@ setup(
     name='liquipediarl',
     version='1.0.0',
     description='Liquipedia Rocket League API Wrapper',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='Kian Mortimer',
     author_email='kmortimer@proton.me',
     url='https://github.com/kianmortimer/liquipediarl',
