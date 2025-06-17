@@ -58,6 +58,8 @@ print(players[:5])
 
 ---
 
-
+[![PyPI version](https://img.shields.io/pypi/v/liquipediarl)](https://pypi.org/project/liquipediarl/)
+[![Python](https://img.shields.io/pypi/pyversions/liquipediarl)](https://pypi.org/project/liquipediarl/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [@kianmortimer](https://github.com/kianmortimer)
