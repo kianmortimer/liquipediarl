@@ -3,7 +3,7 @@ from bs4.element import Tag
 
 from typing import Optional
 
-import constants
+from . import constants
 
 class Player():
 
