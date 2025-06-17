@@ -9,8 +9,8 @@ import time
 
 from typing import Iterator
 
-from player import Player
-import constants
+from .player import Player
+import .constants
 
 
 class LiquipediaRL:
