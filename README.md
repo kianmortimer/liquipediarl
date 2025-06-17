@@ -24,6 +24,8 @@ lp = LiquipediaRL(
 ```python
 # Gets info for a specified player page
 player = lp.get_player("SquishyMuffinz")
+# Player names are as they appear in the URL:
+# https://liquipedia.net/rocketleague/SquishyMuffinz
 
 print(player.keys())
 print(player['info']['earnings'])
@@ -32,8 +34,13 @@ print(player['settings']['camera'])
 ## get_all_players()
 
 ```python
-# Gets all the Oceanic players
+# Gets all the players from a specified region
 players = lp.get_all_players("Oceania")
+# Regions are as follows:
+# Africa, Americas, Asia, Europe, Oceania
+# Or use 'all=True' to get all regions at once
+all_players = lp.get_all_players(all=True)
+# Note: returns 1 page per 30 secs to comply with rate limits
 
 print(len(players))
 print(players[:5])
