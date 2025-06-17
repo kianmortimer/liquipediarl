@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='liquipediarl',
-    version='1.0.4',
+    version='1.0.5',
     description='Liquipedia Rocket League API Wrapper',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
