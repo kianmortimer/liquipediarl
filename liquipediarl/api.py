@@ -10,7 +10,7 @@ import time
 from typing import Iterator
 
 from .player import Player
-import constants
+from . import constants
 
 
 class LiquipediaRL:
