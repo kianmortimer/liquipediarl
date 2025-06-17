@@ -1,6 +1,6 @@
 # LiquipediaRL
 
-**LiquipediaRL** is a Python wrapper for the [Liquipedia Rocket League site](https://liquipedia.net/rocketleague)
+**LiquipediaRL** is a Python wrapper for the [Liquipedia Rocket League](https://liquipedia.net/rocketleague) site
 
 > This wrapper uses the official Liquipedia (MediaWiki) API and abides by the [TOS](https://liquipedia.net/api-terms-of-use)
 
